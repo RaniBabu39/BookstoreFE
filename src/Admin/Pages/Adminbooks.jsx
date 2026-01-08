@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import AdminHeader from "../components/AdminHeader";
-import AdminSidebar from "../components/AdminSidebar";
+import AdminHeader from "../Components/AdminHeader";
+import AdminSidebar from "../Components/AdminSidebar";
 import { getAllBooks, getAllUsers } from "../../services/AllApi";
 import Card from "react-bootstrap/Card";
 import { Await, Link } from "react-router-dom";

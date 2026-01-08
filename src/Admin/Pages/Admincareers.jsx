@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import AdminSidebar from '../components/AdminSidebar'
-import AdminHeader from '../components/AdminHeader'
+import AdminSidebar from '../Components/AdminSidebar'
+import AdminHeader from '../Components/AdminHeader'
 import { getAllJobs, deleteJob, addJob } from '../../services/AllApi'
 import { toast } from 'react-toastify'
 
